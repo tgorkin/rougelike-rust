@@ -1,0 +1,12 @@
+[package]
+name = "rougelike-rust"
+version = "0.1.0"
+authors = ["tgorkin"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rltk = "0.8.1"
+specs = { version = "0.16.1", features = ["specs-derive"]}
+specs-derive = "0.4.1"
